@@ -102,7 +102,7 @@ public class Main {
                 if(nextFrame.getSpare() || nextFrame.getStrike()) {
                     if (nextFrame.getStrike()) {
                         Frame lastFrame = frames.next();
-                        answer += lastFrame.getFirstRoll() + nextFrame.getFirstRoll() + frame.getFirstRoll();//Change to the get methods
+                        answer += lastFrame.getFirstRoll() + nextFrame.getFirstRoll() + frame.getFirstRoll();
                         frames.previous();
                         frames.previous();
                     }
